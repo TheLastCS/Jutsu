@@ -1,0 +1,73 @@
+
+    body, html {
+        height: 100%;
+		margin: 0;
+    }
+
+    .bg {
+        /* The image used */
+        background-image: url("welcome.png");
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .within{
+        position: absolute;
+        top: 750px;
+        left: 35%;
+    }
+	.img{
+		position: absolute;
+		margin:0 auto;
+		display: flex;
+		cursor: pointer;
+		transition: 0.5s;
+        top: 25%;
+        left: 25%;
+		width: 50%;
+    }
+	
+	.img:hover{
+		opacity: 0.5;
+		
+	}
+	
+	.fade-in-image {
+		animation: fadeIn s;
+		-webkit-animation: fadeIn 3s;
+		-moz-animation: fadeIn 3s;
+		-o-animation: fadeIn 3s;
+		-ms-animation: fadeIn 3s;
+	}
+	@keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+	}
+
+	@-moz-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+	}
+
+	@-webkit-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+	}
+
+	@-o-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+	}
+
+	@-ms-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+	}
+
+	
